@@ -1,4 +1,4 @@
-# Readme for X16-Power-Board
+# Readme for X16-Power-Slab
 This board turns 48V into 12 V and 5 V
 
 Whenever you make a new part, download the datasheet and save it here _**and**_ with the part in the parts library
