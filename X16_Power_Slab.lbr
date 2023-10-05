@@ -201,6 +201,15 @@
 <pad name="PIN4" x="54.86" y="7.47" drill="1.6" diameter="2"/>
 <text x="8.88" y="-0.84" size="1.778" layer="25" rot="R180">&gt;NAME</text>
 <text x="-0.38" y="38.31" size="1.778" layer="27">&gt;VALUE</text>
+<pad name="PIN15" x="57.4" y="24.8944" drill="0.6"/>
+<pad name="PIN14" x="57.4" y="22.8878" drill="0.6"/>
+<pad name="PMBUS_SA2" x="57.4" y="20.8812" drill="0.6"/>
+<pad name="PMBUS_SA3" x="57.4" y="20.8812" drill="0.6"/>
+<pad name="PIN13" x="57.4" y="20.8812" drill="0.6"/>
+<pad name="PIN12" x="57.4" y="18.8746" drill="0.6"/>
+<pad name="PIN11" x="57.4" y="16.868" drill="0.6"/>
+<pad name="PIN10" x="57.4" y="14.8614" drill="0.6"/>
+<pad name="PIN9" x="57.4" y="12.8548" drill="0.6"/>
 </package>
 <package name="CONN_796636-3">
 <pad name="1" x="0" y="0" drill="1.524" diameter="2.032"/>
@@ -491,6 +500,13 @@
 <pin name="12V_GND1" x="-10.16" y="-30.48" length="middle" rot="R90"/>
 <pin name="+12V0" x="5.08" y="-30.48" length="middle" rot="R90"/>
 <pin name="+12V1" x="10.16" y="-30.48" length="middle" rot="R90"/>
+<pin name="PMBUS_CTRL" x="12.7" y="10.16" length="middle"/>
+<pin name="PMBUS_GND" x="12.7" y="7.62" length="middle"/>
+<pin name="PMBUS_SDA" x="12.7" y="5.08" length="middle"/>
+<pin name="PMBUS_SALERT" x="12.7" y="2.54" length="middle"/>
+<pin name="PMBUS_SCL" x="12.7" y="0" length="middle"/>
+<pin name="PMBUS_SA1" x="12.7" y="-2.54" length="middle"/>
+<pin name="PMBUS_SA0" x="12.7" y="-5.08" length="middle"/>
 </symbol>
 <symbol name="CONN_796636-3">
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
@@ -600,6 +616,13 @@
 <connect gate="G$1" pin="12V_GND0" pad="PIN5"/>
 <connect gate="G$1" pin="12V_GND1" pad="PIN4"/>
 <connect gate="G$1" pin="48V_GND" pad="PIN3"/>
+<connect gate="G$1" pin="PMBUS_CTRL" pad="PIN9"/>
+<connect gate="G$1" pin="PMBUS_GND" pad="PIN10"/>
+<connect gate="G$1" pin="PMBUS_SA0" pad="PIN15"/>
+<connect gate="G$1" pin="PMBUS_SA1" pad="PIN14"/>
+<connect gate="G$1" pin="PMBUS_SALERT" pad="PIN12"/>
+<connect gate="G$1" pin="PMBUS_SCL" pad="PIN13"/>
+<connect gate="G$1" pin="PMBUS_SDA" pad="PIN11"/>
 <connect gate="G$1" pin="RMCONT" pad="PIN2"/>
 </connects>
 <technologies>
