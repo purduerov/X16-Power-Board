@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -491,20 +491,20 @@
 <wire x1="-17.78" y1="-25.4" x2="12.7" y2="-25.4" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-25.4" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="94"/>
-<pin name="+48V" x="-22.86" y="10.16" length="middle"/>
-<pin name="RMCONT" x="-22.86" y="0" length="middle"/>
-<pin name="48V_GND" x="-22.86" y="-10.16" length="middle"/>
-<pin name="12V_GND0" x="-15.24" y="-30.48" length="middle" rot="R90"/>
-<pin name="12V_GND1" x="-10.16" y="-30.48" length="middle" rot="R90"/>
-<pin name="+12V0" x="5.08" y="-30.48" length="middle" rot="R90"/>
-<pin name="+12V1" x="10.16" y="-30.48" length="middle" rot="R90"/>
-<pin name="PMBUS_CTRL" x="12.7" y="10.16" length="middle"/>
-<pin name="PMBUS_GND" x="12.7" y="7.62" length="middle"/>
-<pin name="PMBUS_SDA" x="12.7" y="5.08" length="middle"/>
-<pin name="PMBUS_SALERT" x="12.7" y="2.54" length="middle"/>
-<pin name="PMBUS_SCL" x="12.7" y="0" length="middle"/>
-<pin name="PMBUS_SA1" x="12.7" y="-2.54" length="middle"/>
-<pin name="PMBUS_SA0" x="12.7" y="-5.08" length="middle"/>
+<pin name="+48V" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="RMCONT" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="48V_GND" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="12V_GND0" x="-15.24" y="-30.48" visible="pin" length="middle" rot="R90"/>
+<pin name="12V_GND1" x="-10.16" y="-30.48" visible="pin" length="middle" rot="R90"/>
+<pin name="+12V0" x="5.08" y="-30.48" visible="pin" length="middle" rot="R90"/>
+<pin name="+12V1" x="10.16" y="-30.48" visible="pin" length="middle" rot="R90"/>
+<pin name="PMBUS_CTRL" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PMBUS_GND" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PMBUS_SDA" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PMBUS_SALERT" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PMBUS_SCL" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="PMBUS_SA1" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PMBUS_SA0" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
 </symbol>
 <symbol name="CONN_796636-3">
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
