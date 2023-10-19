@@ -181,10 +181,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="-0.4064" y1="0.762" x2="151.9936" y2="0.762" width="0" layer="20"/>
+<wire x1="151.9936" y1="0.762" x2="151.9936" y2="61.722" width="0" layer="20"/>
+<wire x1="-0.4064" y1="64.262" x2="-0.4064" y2="0.762" width="0" layer="20"/>
+<wire x1="136.7536" y1="76.962" x2="136.7536" y2="61.722" width="0" layer="20"/>
+<wire x1="136.7536" y1="61.722" x2="151.9936" y2="61.722" width="0" layer="20"/>
+<wire x1="12.2936" y1="76.962" x2="136.7536" y2="76.962" width="0" layer="20"/>
+<wire x1="12.2936" y1="76.962" x2="-0.4064" y2="64.262" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
