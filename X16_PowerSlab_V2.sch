@@ -4748,8 +4748,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <junction x="259.08" y="154.94"/>
 <label x="264.16" y="154.94" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="5.2V" class="0">
 <segment>
 <pinref part="5V_TEST" gate="J1" pin="1"/>
 <wire x1="25.4" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
@@ -4959,7 +4957,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <junction x="50.8" y="76.2"/>
 </segment>
 </net>
-<net name="5.2V" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
