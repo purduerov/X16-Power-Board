@@ -476,6 +476,26 @@
 <pad name="P08_4" x="30.38" y="-2.5" drill="1.02"/>
 <pad name="P08_5" x="30.38" y="-5" drill="1.02"/>
 </package>
+<package name="12V_TESTPOINT">
+<pad name="12V" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
+</package>
+<package name="5.2V_TESTPOINT">
+<pad name="5.2V" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
+</package>
+<package name="GND_TESTPOINT">
+<pad name="GND" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.1524" layer="21"/>
+</package>
+<package name="48V_TESTPOINT">
+<pad name="48V" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
+</package>
+<package name="48V_GND_TESTPOINT">
+<pad name="48V_GND" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SAMTEC_ET60T-D04-3-08-D04-X-R1-S" urn="urn:adsk.eagle:package:41523995/2" type="model">
@@ -598,6 +618,31 @@
 <pin name="P06" x="12.7" y="17.78" length="middle" direction="pwr" rot="R180"/>
 <pin name="P07" x="12.7" y="15.24" length="middle" direction="pwr" rot="R180"/>
 <pin name="P08" x="12.7" y="12.7" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="12V_TESTPOINTS">
+<circle x="0" y="0" radius="2.54" width="0.508" layer="94"/>
+<pin name="12V" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-2.794" y="3.302" size="1.27" layer="95">12V TP</text>
+</symbol>
+<symbol name="5.2V_TESTPOINTS">
+<circle x="0" y="0" radius="2.54" width="0.508" layer="94"/>
+<pin name="5.2V" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-2.794" y="3.302" size="1.27" layer="95">5.2V TP</text>
+</symbol>
+<symbol name="GND_TESTPOINTS">
+<circle x="0" y="0" radius="2.54" width="0.508" layer="94"/>
+<pin name="GND" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-2.794" y="3.302" size="1.27" layer="95">GND TP</text>
+</symbol>
+<symbol name="48V_TESTPOINTS">
+<circle x="0" y="0" radius="2.54" width="0.508" layer="94"/>
+<pin name="12V" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-2.794" y="3.302" size="1.27" layer="95">48V TP</text>
+</symbol>
+<symbol name="48V_GND_TESTPOINTS">
+<circle x="0" y="0" radius="2.54" width="0.508" layer="94"/>
+<pin name="GND" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-2.794" y="3.302" size="1.27" layer="95">48V GND TP</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -752,6 +797,81 @@ AZ1117CR-3.3TRG1: https://www.digikey.com/en/products/detail/diodes-incorporated
 <attribute name="PARTREV" value="J"/>
 <attribute name="STANDARD" value="Manufacturer Recommendations"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="12V_TESTPOINT">
+<gates>
+<gate name="G$1" symbol="12V_TESTPOINTS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="12V_TESTPOINT">
+<connects>
+<connect gate="G$1" pin="12V" pad="12V"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5.2V_TESTPOINT">
+<gates>
+<gate name="G$1" symbol="5.2V_TESTPOINTS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5.2V_TESTPOINT">
+<connects>
+<connect gate="G$1" pin="5.2V" pad="5.2V"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND_TESTPOINT">
+<gates>
+<gate name="G$1" symbol="GND_TESTPOINTS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GND_TESTPOINT">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="48V_TESTPOINT">
+<gates>
+<gate name="G$1" symbol="48V_TESTPOINTS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="48V_TESTPOINT">
+<connects>
+<connect gate="G$1" pin="12V" pad="48V"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="48V_GND_TESTPOINT">
+<gates>
+<gate name="G$1" symbol="48V_GND_TESTPOINTS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="48V_GND_TESTPOINT">
+<connects>
+<connect gate="G$1" pin="GND" pad="48V_GND"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
