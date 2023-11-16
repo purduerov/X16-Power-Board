@@ -4404,6 +4404,11 @@ Used as a test point connection for pogo pins or other debugging tools.
 <junction x="259.08" y="154.94"/>
 <label x="264.16" y="154.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="VOUT+_5"/>
+<wire x1="121.92" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<label x="129.54" y="114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PMBUS_CTRL" class="0">
 <segment>
@@ -4487,13 +4492,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <pinref part="J3" gate="G$1" pin="17"/>
 <wire x1="256.54" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
 <label x="256.54" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="VOUT+_5"/>
-<wire x1="121.92" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
-<label x="129.54" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -4677,19 +4675,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 </net>
 <net name="12V" class="0">
 <segment>
-<pinref part="CIN2" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="68.58" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="CIN1" gate="G$1" pin="+"/>
-<wire x1="-60.96" y1="68.58" x2="-60.96" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VIN"/>
-<wire x1="-60.96" y1="71.12" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-60.96" y="71.12"/>
-<junction x="-48.26" y="71.12"/>
-<wire x1="-48.26" y1="71.12" x2="-15.24" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="71.12" x2="-68.58" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="91"/>
 <label x="-7.62" y="5.08" size="1.778" layer="95"/>
@@ -4762,6 +4747,21 @@ Used as a test point connection for pogo pins or other debugging tools.
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="D3" gate="D1" pin="A"/>
 <wire x1="12.7" y1="-5.08" x2="20.32" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="CIN2" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="68.58" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="CIN1" gate="G$1" pin="+"/>
+<wire x1="-60.96" y1="68.58" x2="-60.96" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VIN"/>
+<wire x1="-60.96" y1="71.12" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-60.96" y="71.12"/>
+<junction x="-48.26" y="71.12"/>
+<wire x1="-48.26" y1="71.12" x2="-15.24" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="71.12" x2="-68.58" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>
