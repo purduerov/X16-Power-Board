@@ -1557,12 +1557,12 @@ maxErrors = 50
 <element name="U$6" library="X16_Power_Slab" package="TSW-105-05-G-S(D-C)" value="CONN_DISTRIBUTION_TO_CONVERSION" x="77.4192" y="62.1538" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.8292" y="57.0738" size="1.778" layer="25" rot="R90"/>
 </element>
-<element name="48_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-1.524" y="-16.3576" smashed="yes"/>
-<element name="48VGND_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="0.0254" y="-13.9192" smashed="yes"/>
-<element name="12V_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="2.0574" y="-14.351" smashed="yes"/>
-<element name="12VGND_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="0.6858" y="-18.0086" smashed="yes"/>
-<element name="TP5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="1.9812" y="-17.399" smashed="yes"/>
-<element name="TP6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-0.6858" y="-17.3736" smashed="yes"/>
+<element name="48_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-72.136" y="-29.3116" smashed="yes"/>
+<element name="48VGND_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-70.5866" y="-26.8732" smashed="yes"/>
+<element name="12V_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-68.5546" y="-27.305" smashed="yes"/>
+<element name="12VGND_TP" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-69.9262" y="-30.9626" smashed="yes"/>
+<element name="TP5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-68.6308" y="-30.353" smashed="yes"/>
+<element name="TP6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.05" package3d_urn="urn:adsk.eagle:package:38285/2" value="TEST-POINT3X5" x="-71.2978" y="-30.3276" smashed="yes"/>
 <element name="L1" library="X15-Conversion-Parts-Library" package="HCMA1305" package3d_urn="urn:adsk.eagle:package:24201702/2" value="15uH" x="142.3162" y="32.9184" smashed="yes" rot="MR270">
 <attribute name="NAME" x="125.6792" y="28.2702" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="149.9362" y="32.9184" size="1.27" layer="28" rot="MR270" align="top-center"/>
@@ -1802,8 +1802,7 @@ maxErrors = 50
 <contactref element="C3" pad="-"/>
 <contactref element="C7" pad="-"/>
 <polygon width="0.1524" layer="1" isolate="0.3048" rank="2">
-<vertex x="-1.3716" y="69.3674"/>
-<vertex x="-1.3716" y="2.54"/>
+<vertex x="1.2954" y="72.0344"/>
 <vertex x="1.2954" y="-0.127"/>
 <vertex x="36.2712" y="-0.127"/>
 <vertex x="36.83" y="0.4318"/>
