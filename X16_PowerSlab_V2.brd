@@ -1005,10 +1005,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.1562" y1="5.1562" x2="-5.1562" y2="-5.1562" width="0.1524" layer="51"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-6.35" y1="5.461" x2="-6.35" y2="-5.461" width="0.127" layer="41"/>
-<wire x1="-6.35" y1="-5.461" x2="6.35" y2="-5.461" width="0.127" layer="41"/>
-<wire x1="6.35" y1="-5.461" x2="6.35" y2="5.461" width="0.127" layer="41"/>
-<wire x1="6.35" y1="5.461" x2="-6.35" y2="5.461" width="0.127" layer="41"/>
+<wire x1="-5.461" y1="5.461" x2="-5.461" y2="-5.461" width="0.127" layer="39"/>
+<wire x1="-5.461" y1="-5.461" x2="5.461" y2="-5.461" width="0.127" layer="39"/>
+<wire x1="5.461" y1="-5.461" x2="5.461" y2="5.461" width="0.127" layer="39"/>
+<wire x1="5.461" y1="5.461" x2="-5.461" y2="5.461" width="0.127" layer="39"/>
 </package>
 </packages>
 <packages3d>
@@ -1788,6 +1788,9 @@ maxErrors = 50
 <wire x1="68.1722" y1="37.9998" x2="68.1722" y2="33.7566" width="0.508" layer="1"/>
 <wire x1="130.4544" y1="42.545" x2="130.4544" y2="52.74" width="0.508" layer="16"/>
 <contactref element="GND" pad="TP"/>
+<wire x1="127.254" y1="40.214" x2="122.092" y2="40.214" width="1.016" layer="1"/>
+<wire x1="122.092" y1="40.214" x2="121.92" y2="40.386" width="1.016" layer="1"/>
+<via x="121.92" y="40.386" extent="1-16" drill="1.27"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$2" pad="PIN3"/>
@@ -1869,12 +1872,7 @@ maxErrors = 50
 <contactref element="C6" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C1" pad="2"/>
-<wire x1="33.4645" y1="43.434" x2="33.48990625" y2="43.45940625" width="2.032" layer="1"/>
-<wire x1="33.4645" y1="54.864" x2="33.4899" y2="54.8386" width="2.032" layer="1"/>
 <contactref element="48V_GND" pad="TP"/>
-<wire x1="33.48990625" y1="43.45940625" x2="49.653" y2="46.632" width="0" layer="19" extent="1-1"/>
-<wire x1="33.4899" y1="54.8386" x2="33.48990625" y2="43.45940625" width="0" layer="19" extent="1-1"/>
-<wire x1="33.4645" y1="66.294" x2="33.4645" y2="54.864" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R4" pad="1"/>
@@ -1915,7 +1913,6 @@ maxErrors = 50
 <signal name="N$11">
 <contactref element="R10" pad="2"/>
 <contactref element="D7" pad="A"/>
-<wire x1="129.171" y1="11.05493125" x2="129.171" y2="10.9982" width="0.762" layer="16"/>
 <wire x1="127.21498125" y1="11.18193125" x2="127.3987125" y2="10.9982" width="0.508" layer="16"/>
 <wire x1="127.3987125" y1="10.9982" x2="129.171" y2="10.9982" width="0.508" layer="16"/>
 </signal>
@@ -1985,9 +1982,15 @@ maxErrors = 50
 <contactref element="J3" pad="24"/>
 <contactref element="J3" pad="16"/>
 <contactref element="12V" pad="TP"/>
-<wire x1="85.27" y1="7.168" x2="85.27" y2="9.708" width="0" layer="19" extent="1-1"/>
-<wire x1="85.27" y1="4.628" x2="85.27" y2="7.168" width="0" layer="19" extent="1-1"/>
-<wire x1="100.453" y1="27.582" x2="85.27" y2="9.708" width="0" layer="19" extent="1-1"/>
+<wire x1="85.27" y1="4.628" x2="85.27" y2="3.104" width="1.016" layer="1"/>
+<wire x1="85.27" y1="3.104" x2="84.452" y2="2.286" width="1.016" layer="1"/>
+<wire x1="84.452" y1="2.286" x2="66.294" y2="2.286" width="1.016" layer="1"/>
+<wire x1="66.294" y1="2.286" x2="65.024" y2="3.556" width="1.016" layer="1"/>
+<wire x1="68.984" y1="27.582" x2="100.453" y2="27.582" width="1.016" layer="1"/>
+<wire x1="65.024" y1="3.556" x2="65.024" y2="23.622" width="1.016" layer="1"/>
+<wire x1="65.024" y1="23.622" x2="68.984" y2="27.582" width="1.016" layer="1"/>
+<wire x1="85.27" y1="9.708" x2="85.27" y2="7.168" width="1.016" layer="1"/>
+<wire x1="85.27" y1="7.168" x2="85.27" y2="4.628" width="1.016" layer="1"/>
 </signal>
 <signal name="5.2V">
 <contactref element="R10" pad="1"/>
@@ -2120,7 +2123,6 @@ maxErrors = 50
 <contactref element="U$2" pad="PIN2"/>
 <contactref element="CIN1" pad="+"/>
 <contactref element="CR2" pad="1"/>
-<wire x1="121.92" y1="46.6217" x2="122.1163" y2="46.818" width="0.508" layer="1"/>
 <wire x1="132.9944" y1="45.7082" x2="132.9944" y2="45.466" width="0.508" layer="1"/>
 <wire x1="132.9944" y1="45.466" x2="132.9944" y2="44.5516" width="0.508" layer="1"/>
 <wire x1="132.9944" y1="44.5516" x2="133.096" y2="44.45" width="0.508" layer="1"/>

@@ -1317,10 +1317,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.1562" y1="5.1562" x2="-5.1562" y2="-5.1562" width="0.1524" layer="51"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-6.35" y1="5.461" x2="-6.35" y2="-5.461" width="0.127" layer="41"/>
-<wire x1="-6.35" y1="-5.461" x2="6.35" y2="-5.461" width="0.127" layer="41"/>
-<wire x1="6.35" y1="-5.461" x2="6.35" y2="5.461" width="0.127" layer="41"/>
-<wire x1="6.35" y1="5.461" x2="-6.35" y2="5.461" width="0.127" layer="41"/>
+<wire x1="-5.461" y1="5.461" x2="-5.461" y2="-5.461" width="0.127" layer="39"/>
+<wire x1="-5.461" y1="-5.461" x2="5.461" y2="-5.461" width="0.127" layer="39"/>
+<wire x1="5.461" y1="-5.461" x2="5.461" y2="5.461" width="0.127" layer="39"/>
+<wire x1="5.461" y1="5.461" x2="-5.461" y2="5.461" width="0.127" layer="39"/>
 </package>
 <package name="CAP_UCD_10X10_NCH-M">
 <smd name="1" x="-4.3053" y="0" dx="4.1148" dy="1.6002" layer="1"/>
