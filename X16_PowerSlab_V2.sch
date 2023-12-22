@@ -3536,9 +3536,9 @@ Switches electronic signals</description>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/2" value="3.6V"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value="1M"/>
 <part name="TRANS_REVERSE_VOLT_PROTEC" library="X15_Brickstribution" deviceset="TRANS_IRF1018ESTRLPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
-<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="10k"/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="500"/>
+<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="250"/>
 <part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="-0805" package3d_urn="urn:adsk.eagle:package:41389318/1" value="48V"/>
 <part name="12V_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="-0805" package3d_urn="urn:adsk.eagle:package:41389318/1" value="12V"/>
 <part name="5.2V_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="-0805" package3d_urn="urn:adsk.eagle:package:41389318/1" value="5.2V"/>
@@ -3566,6 +3566,8 @@ Switches electronic signals</description>
 </part>
 <part name="48V_GND" library="X16-ExtraComponents" deviceset="TESTPOINT_5.04MM" device=""/>
 <part name="GND" library="X16-ExtraComponents" deviceset="TESTPOINT_5.04MM" device=""/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="150k"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="220k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3659,6 +3661,14 @@ Switches electronic signals</description>
 </instance>
 <instance part="GND" gate="G$1" x="142.24" y="22.86" smashed="yes">
 <attribute name="NAME" x="138.43" y="23.876" size="1.778" layer="95"/>
+</instance>
+<instance part="R3" gate="G$1" x="38.1" y="76.2" smashed="yes">
+<attribute name="NAME" x="38.1" y="77.724" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="38.1" y="74.676" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="38.1" y="63.5" smashed="yes">
+<attribute name="NAME" x="38.1" y="65.024" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="38.1" y="61.976" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -3768,6 +3778,26 @@ Switches electronic signals</description>
 <pinref part="GND" gate="G$1" pin="TP"/>
 <wire x1="145.542" y1="22.86" x2="158.242" y2="22.86" width="0.1524" layer="91"/>
 <label x="157.48" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="55.88" y="154.94" size="1.778" layer="95"/>
+<pinref part="BMR480_POWERBRICK" gate="G$1" pin="PMBUS_GND"/>
+<wire x1="53.34" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BACKPLANE_CONN" gate="G$1" pin="22"/>
+<wire x1="256.54" y1="119.38" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
+<label x="256.54" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
+<label x="50.8" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="50.8" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="48V_GND" class="0">
@@ -3969,18 +3999,6 @@ Switches electronic signals</description>
 <label x="256.54" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PMBUS_GND" class="0">
-<segment>
-<label x="55.88" y="154.94" size="1.778" layer="95"/>
-<pinref part="BMR480_POWERBRICK" gate="G$1" pin="PMBUS_GND"/>
-<wire x1="53.34" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="BACKPLANE_CONN" gate="G$1" pin="22"/>
-<wire x1="256.54" y1="119.38" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
-<label x="256.54" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PMBUS_SDA" class="0">
 <segment>
 <label x="55.88" y="152.4" size="1.778" layer="95"/>
@@ -4024,9 +4042,9 @@ Switches electronic signals</description>
 <wire x1="53.34" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BACKPLANE_CONN" gate="G$1" pin="18"/>
-<wire x1="256.54" y1="129.54" x2="264.16" y2="129.54" width="0.1524" layer="91"/>
-<label x="256.54" y="129.54" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<label x="17.78" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMBUS_SA0" class="0">
@@ -4036,9 +4054,9 @@ Switches electronic signals</description>
 <wire x1="53.34" y1="142.24" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BACKPLANE_CONN" gate="G$1" pin="17"/>
-<wire x1="256.54" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
-<label x="256.54" y="132.08" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
+<label x="17.78" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
