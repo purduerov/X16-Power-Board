@@ -5448,7 +5448,7 @@ Source: www.kingbright.com</description>
 <part name="BACKPLANE_CONN" library="X16_Power_Slab" deviceset="CONN_ET60T" device="" package3d_urn="urn:adsk.eagle:package:41523995/2"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/2" value="PZU15B3A,115"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value="1M"/>
-<part name="TRANS_REVERSE_VOLT_PROTEC" library="X15_Brickstribution" deviceset="TRANS_IRF1018ESTRLPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
+<part name="REVERSE_PROTECT" library="X15_Brickstribution" deviceset="TRANS_IRF1018ESTRLPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="10k"/>
 <part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="500"/>
 <part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="250"/>
@@ -5512,7 +5512,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="181.356" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="184.404" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="TRANS_REVERSE_VOLT_PROTEC" gate="G$1" x="193.04" y="144.78" smashed="yes" rot="R270">
+<instance part="REVERSE_PROTECT" gate="G$1" x="193.04" y="144.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="193.04" y="139.7" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="190.5" y="139.7" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
@@ -5712,7 +5712,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="48V_GND" class="0">
 <segment>
-<pinref part="TRANS_REVERSE_VOLT_PROTEC" gate="G$1" pin="S"/>
+<pinref part="REVERSE_PROTECT" gate="G$1" pin="S"/>
 <wire x1="187.96" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="144.78" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
@@ -5761,7 +5761,7 @@ Source: www.kingbright.com</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="149.86" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="TRANS_REVERSE_VOLT_PROTEC" gate="G$1" pin="G"/>
+<pinref part="REVERSE_PROTECT" gate="G$1" pin="G"/>
 <wire x1="190.5" y1="149.86" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
 <junction x="182.88" y="152.4"/>
@@ -5769,7 +5769,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="GND_RAW" class="0">
 <segment>
-<pinref part="TRANS_REVERSE_VOLT_PROTEC" gate="G$1" pin="D"/>
+<pinref part="REVERSE_PROTECT" gate="G$1" pin="D"/>
 <wire x1="198.12" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
 <label x="198.12" y="142.24" size="1.778" layer="95"/>
 </segment>
