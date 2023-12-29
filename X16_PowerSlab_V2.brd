@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -7327,6 +7327,7 @@ Rhea Virk</text>
 <wire x1="16.5862" y1="58.928" x2="17.1196" y2="59.4614" width="0.1524" layer="21"/>
 <wire x1="88.7984" y1="43.1546" x2="89.3318" y2="42.6212" width="0.1524" layer="21"/>
 <wire x1="88.7984" y1="42.0878" x2="89.3318" y2="42.6212" width="0.1524" layer="21"/>
+<rectangle x1="93.726" y1="63.5" x2="124.206" y2="74.422" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
