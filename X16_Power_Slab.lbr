@@ -192,22 +192,22 @@
 <wire x1="0" y1="37.8" x2="59.4" y2="37.8" width="0.1524" layer="21"/>
 <wire x1="59.4" y1="37.8" x2="59.4" y2="0" width="0.1524" layer="21"/>
 <wire x1="59.4" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<pad name="PIN1" x="4.06" y="26.52" drill="1.6" diameter="2"/>
-<pad name="PIN2" x="4.06" y="18.9" drill="1.6" diameter="2"/>
-<pad name="PIN3" x="4.06" y="11.28" drill="1.6" diameter="2"/>
-<pad name="PIN8" x="54.86" y="30.33" drill="1.6" diameter="2"/>
-<pad name="PIN7" x="54.86" y="26.52" drill="1.6" diameter="2"/>
-<pad name="PIN5" x="54.86" y="11.28" drill="1.6" diameter="2"/>
-<pad name="PIN4" x="54.86" y="7.47" drill="1.6" diameter="2"/>
+<pad name="PIN1" x="4.06" y="26.52" drill="1.6002"/>
+<pad name="PIN2" x="4.06" y="18.9" drill="1.6002"/>
+<pad name="PIN3" x="4.06" y="11.28" drill="1.6002"/>
+<pad name="PIN8" x="54.86" y="30.33" drill="2.1082"/>
+<pad name="PIN7" x="54.86" y="26.52" drill="2.1082"/>
+<pad name="PIN5" x="54.86" y="11.28" drill="2.1082"/>
+<pad name="PIN4" x="54.86" y="7.47" drill="2.1082"/>
 <text x="8.88" y="-0.84" size="1.778" layer="25" rot="R180">&gt;NAME</text>
 <text x="-0.38" y="38.31" size="1.778" layer="27">&gt;VALUE</text>
-<pad name="PIN15" x="57.4" y="24.8944" drill="0.6"/>
-<pad name="PIN14" x="57.4" y="22.8878" drill="0.6"/>
-<pad name="PIN13" x="57.4" y="20.8812" drill="0.6"/>
-<pad name="PIN12" x="57.4" y="18.8746" drill="0.6"/>
-<pad name="PIN11" x="57.4" y="16.868" drill="0.6"/>
-<pad name="PIN10" x="57.4" y="14.8614" drill="0.6"/>
-<pad name="PIN9" x="57.4" y="12.8548" drill="0.6"/>
+<pad name="PIN15" x="57.4" y="24.8944" drill="0.9"/>
+<pad name="PIN14" x="57.4" y="22.8878" drill="0.9"/>
+<pad name="PIN13" x="57.4" y="20.8812" drill="0.9"/>
+<pad name="PIN12" x="57.4" y="18.8746" drill="0.9"/>
+<pad name="PIN11" x="57.4" y="16.868" drill="0.9"/>
+<pad name="PIN10" x="57.4" y="14.8614" drill="0.9"/>
+<pad name="PIN9" x="57.4" y="12.8548" drill="0.9"/>
 </package>
 <package name="CONN_796636-3">
 <pad name="1" x="0" y="0" drill="1.524" diameter="2.032"/>

@@ -408,22 +408,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="37.8" x2="59.4" y2="37.8" width="0.1524" layer="21"/>
 <wire x1="59.4" y1="37.8" x2="59.4" y2="0" width="0.1524" layer="21"/>
 <wire x1="59.4" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<pad name="PIN1" x="4.06" y="26.52" drill="1.6" diameter="2"/>
-<pad name="PIN2" x="4.06" y="18.9" drill="1.6" diameter="2"/>
-<pad name="PIN3" x="4.06" y="11.28" drill="1.6" diameter="2"/>
-<pad name="PIN8" x="54.86" y="30.33" drill="1.6" diameter="2"/>
-<pad name="PIN7" x="54.86" y="26.52" drill="1.6" diameter="2"/>
-<pad name="PIN5" x="54.86" y="11.28" drill="1.6" diameter="2"/>
-<pad name="PIN4" x="54.86" y="7.47" drill="1.6" diameter="2"/>
+<pad name="PIN1" x="4.06" y="26.52" drill="1.6002"/>
+<pad name="PIN2" x="4.06" y="18.9" drill="1.6002"/>
+<pad name="PIN3" x="4.06" y="11.28" drill="1.6002"/>
+<pad name="PIN8" x="54.86" y="30.33" drill="2.1082"/>
+<pad name="PIN7" x="54.86" y="26.52" drill="2.1082"/>
+<pad name="PIN5" x="54.86" y="11.28" drill="2.1082"/>
+<pad name="PIN4" x="54.86" y="7.47" drill="2.1082"/>
 <text x="8.88" y="-0.84" size="1.778" layer="25" rot="R180">&gt;NAME</text>
 <text x="-0.38" y="38.31" size="1.778" layer="27">&gt;VALUE</text>
-<pad name="PIN15" x="57.4" y="24.8944" drill="0.6"/>
-<pad name="PIN14" x="57.4" y="22.8878" drill="0.6"/>
-<pad name="PIN13" x="57.4" y="20.8812" drill="0.6"/>
-<pad name="PIN12" x="57.4" y="18.8746" drill="0.6"/>
-<pad name="PIN11" x="57.4" y="16.868" drill="0.6"/>
-<pad name="PIN10" x="57.4" y="14.8614" drill="0.6"/>
-<pad name="PIN9" x="57.4" y="12.8548" drill="0.6"/>
+<pad name="PIN15" x="57.4" y="24.8944" drill="0.9"/>
+<pad name="PIN14" x="57.4" y="22.8878" drill="0.9"/>
+<pad name="PIN13" x="57.4" y="20.8812" drill="0.9"/>
+<pad name="PIN12" x="57.4" y="18.8746" drill="0.9"/>
+<pad name="PIN11" x="57.4" y="16.868" drill="0.9"/>
+<pad name="PIN10" x="57.4" y="14.8614" drill="0.9"/>
+<pad name="PIN9" x="57.4" y="12.8548" drill="0.9"/>
 </package>
 <package name="TSW-105-05-G-S(D-C)">
 <pad name="1" x="-3.81" y="20.32" drill="1.016"/>
@@ -3066,21 +3066,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SOD-323" urn="urn:adsk.eagle:footprint:38400/2" library_version="2">
+<package name="SOD-323" urn="urn:adsk.eagle:footprint:38400/1" library_version="1">
 <description>SOD-323 (Small Outline Diode)</description>
 <wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
 <wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
 <wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
-<wire x1="-1.651" y1="0.762" x2="1.651" y2="0.762" width="0.127" layer="39"/>
-<wire x1="1.651" y1="0.762" x2="1.651" y2="-0.762" width="0.127" layer="39"/>
-<wire x1="1.651" y1="-0.762" x2="-1.651" y2="-0.762" width="0.127" layer="39"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.127" layer="39"/>
 <smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
 <smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:footprint:38404/2" library_version="2">
+<package name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:footprint:38404/1" library_version="1">
 <description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
 <wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
 <wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
@@ -3090,63 +3086,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT23-3" urn="urn:adsk.eagle:footprint:38398/2" library_version="2">
-<description>&lt;h3&gt;SOT23-3X&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Total Size: 3mm x 2.5mm&lt;/li&gt;
-&lt;li&gt;Landing Pad Size: .8mm x .9mm&lt;/li&gt;
-&lt;li&gt;Pitch: 2 (vertical) .95mm (horizontal)&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
-<package3d name="SOD-323" urn="urn:adsk.eagle:package:38441/2" type="box" library_version="2">
+<package3d name="SOD-323" urn="urn:adsk.eagle:package:38441/1" type="box" library_version="1">
 <description>SOD-323 (Small Outline Diode)</description>
 <packageinstances>
 <packageinstance name="SOD-323"/>
 </packageinstances>
 </package3d>
-<package3d name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:package:38444/2" type="box" library_version="2">
+<package3d name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:package:38444/1" type="box" library_version="1">
 <description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
 <packageinstances>
 <packageinstance name="PANASONIC_SMINI2-F5-B"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23-3" urn="urn:adsk.eagle:package:38446/2" type="box" library_version="2">
-<description>&lt;h3&gt;SOT23-3X&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Total Size: 3mm x 2.5mm&lt;/li&gt;
-&lt;li&gt;Landing Pad Size: .8mm x .9mm&lt;/li&gt;
-&lt;li&gt;Pitch: 2 (vertical) .95mm (horizontal)&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<packageinstances>
-<packageinstance name="SOT23-3"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
-<symbol name="DIODE-ZENER" urn="urn:adsk.eagle:symbol:38403/2" library_version="2">
+<symbol name="DIODE-ZENER" urn="urn:adsk.eagle:symbol:38403/1" library_version="1">
 <description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
 Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
 <wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
@@ -3167,7 +3123,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-ZENER" urn="urn:adsk.eagle:component:38465/2" prefix="D" library_version="2">
+<deviceset name="DIODE-ZENER" urn="urn:adsk.eagle:component:38465/1" prefix="D" library_version="1">
 <description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
 &lt;p&gt;A Zener diode allows current to flow from its anode to its cathode like a normal semiconductor diode, but it also permits current to flow in the reverse direction when its "Zener voltage" is reached. - WIkipedia&lt;/p&gt;</description>
 <gates>
@@ -3180,7 +3136,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3195,7 +3151,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3210,7 +3166,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38444/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38444/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3225,42 +3181,12 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-08199" constant="no"/>
 <attribute name="VALUE" value="3.6V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-MMBZ5233BLT1G" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38446/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-14123"/>
-<attribute name="VALUE" value="6V"/>
-</technology>
-</technologies>
-</device>
-<device name="-BZX84C15LT3G" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38446/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-15071" constant="no"/>
-<attribute name="VALUE" value="15V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5440,18 +5366,18 @@ Source: www.kingbright.com</description>
 <part name="U$2" library="X16_Power_Slab" deviceset="BUCK_LM2679SX-ADJ" device=""/>
 <part name="CIN2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value="1k"/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value="3.32k"/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value=" "/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value=" "/>
 <part name="RADJ" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value=" "/>
 <part name="40V_DIODE" library="X15-Conversion-Parts-Library" deviceset="CDBG520-G" device="" value="40V"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="BACKPLANE_CONN" library="X16_Power_Slab" deviceset="CONN_ET60T" device="" package3d_urn="urn:adsk.eagle:package:41523995/2"/>
-<part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/2" value="PZU15B3A,115"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value="1M"/>
+<part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/1" value="3.6V"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value=" "/>
 <part name="REVERSE_PROTECT" library="X15_Brickstribution" deviceset="TRANS_IRF1018ESTRLPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="10k"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="500"/>
-<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="250"/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
+<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
 <part name="48V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="48V"/>
 <part name="12V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="12V"/>
 <part name="5.2V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="5.2V"/>
@@ -5478,8 +5404,8 @@ Source: www.kingbright.com</description>
 </part>
 <part name="48V_GND" library="X16-ExtraComponents" deviceset="TESTPOINT_5.04MM" device=""/>
 <part name="GND" library="X16-ExtraComponents" deviceset="TESTPOINT_5.04MM" device=""/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="150k"/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="220k"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
 <part name="CIN1" library="X16_Power_Slab" deviceset="594D187X0016R2T" device=""/>
 </parts>
 <sheets>
